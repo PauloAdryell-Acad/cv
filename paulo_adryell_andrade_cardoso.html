@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+     <meta charset="utf-8">
+
+     <title>Paulo Adryell Andrade Cardoso - Curriculum</title>
+
+     <style type="text/css">
+     @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style: none;text-decoration: none;
+            font-family: 'Xanh Mono', monospace;
+        }
+        body{
+            background-color: black;
+            color: white;
+        }
+        header {
+            margin:0 50px;
+            padding:20px;
+        }
+        h1 {
+            display: inline-block;
+            width:30%;
+        }
+        nav {
+            width:65%;
+            float:right;
+            padding-left: 20%;
+            border-radius: 10px;        
+        }
+
+        nav > ul {
+            list-style: none;
+
+        }
+
+        nav > ul  li {
+            
+            display: inline-block;
+            width: 20%;         
+            float:left;         
+            text-align: center;
+            position: relative;
+        }
+
+        nav > ul  li  a {
+            
+            display: block;
+            padding:8px 16px;
+            font:bold 14px verdana;
+            text-decoration: none;
+            color:white;
+            
+        }
+
+        nav > ul  li  a:hover {
+            border-radius: 10px;
+            background: cyan;
+            color:blue;
+        }
+
+        nav > ul > li > ul {
+            position: absolute;
+            top:32px;
+            left:0;
+            display: none;
+            width:100%;
+            background-color: green;
+        }
+
+        nav > ul > li > ul > li {
+            border-radius: 30px;
+            float:none;
+            width: 100%;
+            background-color:LightSkyBlue;
+        
+        }
+
+        nav > ul > li > ul > li a {
+            color:black;
+        }
+
+        nav > ul > li > a:hover + ul { 
+            display: block;
+        }
+
+        nav > ul > li > ul:hover { 
+            display: block;
+        }
+        #principal{
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        #contato{margin-left: 25%;margin-top: -20%;}
+        #contato a:hover{color: yellow;}
+
+        img{height: 300px;margin-left: 1%;margin-top: 10px;border-radius: 30px;border-color: orange;border-style: solid;opacity: 0.7;}
+
+        #objetivos{margin-top: 15%;margin-left: 1%;margin-right: 50%;width: 30%;}
+
+        dl{
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            width: 100%;
+        }
+        dl dt{
+            margin-top: 10px;
+            margin-left: 20px;
+            text-align: center;
+        }
+        dl dd{
+            margin-top: 50px;
+            margin-left: -110px;
+            padding-bottom: 10px;
+            padding-top: 5px;
+        }
+        dl dt h2{
+            color: red;
+        }
+
+        dl dd h3{
+            color: gray;
+        }
+     </style>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li>
+                    <a href="#">Sobre</a>
+
+                    <ul>
+                        <li><a href="#">Redes Sociais</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Objetivos</a></li>
+                        <li><a href="#">Experiências</a></li>
+                        <li><a href="#">Educação</a></li>
+                    </ul>
+
+                </li>
+                <li>
+                    <a href="#">Projetos</a>
+                    <ul>
+                        <li><a href="#">New Governament</a></li>
+                        <li><a href="#">FromTube</a></li>
+                        <li><a href="#">SpaceIFMA</a></li>
+                        <li><a href="#">Narutards TT</a></li>
+                        <li><a href="#">One Style</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div id="principal">
+    
+        <img src="foto.jpg" alt="Sua Foto" id="foto" />
+    
+        <div id="contato">
+        
+            <h1 class="nome">Paulo Adryell Andrade Cardoso</h1>
+        
+            <p>
+                Telefone: <span class="fone">(99) 98843-1729</span><br />
+                Email: <a class="email" href="mailto:adryellpaulo@gmail.com">adryellpaulo@gmail.com</a>
+            </p>
+        </div>
+                
+        <div id="objetivos">
+            <p>
+                Meus objetivos na empresa são muitos. Eu gosto muito de ganhar dinheiro, estou aqui na terra buscando a evolução intelectual da sociedade por meio da tecnologia, do desenvolvimento pessoal e social. Espero conseguir cumprir minhas metas e para isso preciso de foco e experiência. É, vamos lá! Começar agora, senão não termina!
+            </p>
+        </div>
+                
+        <dl>
+            
+            <dt><h2>Educação</h2></dt>
+            <dd>
+                <h3>Instituto Federal do Maranhão - IFMA</h3>
+                <p><strong>Ensino fundamental:</strong> Duque de Caxias(6º ao 9º) - Caxias/MA<br />
+                   <strong>Pré-escola:</strong> Escolinha Arco Iris - Caxias/MA</p>
+            </dd>
+            
+            <dt><h2>Habilidades</h2></dt>
+            <dd>
+                <h3>Programação</h3>
+                <p>Desenvolvo sites e apps desktop utilizando python. Espero conseguir terminar esse curso e criar algo de sucesso.</p>
+                
+                <h3>Pessoais</h3>
+                <p>Gosto muito de me rir, caminhar, dormir, fazer amigos e descobrir mais sobre eles e sobre nosso mundo, acho que sou bem sociável mas introvertido.</p>
+            </dd>
+            
+            <dt><h2>Experiências</h2></dt>
+            <dd>
+                <h3>Google <span>Co-Fundador</span></h3>
+                <ul>
+                    <li>Criador de ideias</li>
+                    <li>Planejei o desenvolvimento economico</li>
+                    <li>desenvolvi e atualizei a logo:D</li>
+                </ul>
+                
+                <h3>Harvard<span> Professor</span></h3>
+                <ul>
+                    <li>Ministrava aulas</li>
+                    <li>Conversava sobre ideias interessantes como o facebook de meu aluno Mark</li>
+                    <li>Gerenciava o marketing dos meus alunos</li>
+                </ul>
+            </dd>
+            
+            
+            <dt><h2>Hobbies</h2></dt>
+            <dd>Passar Raiva com o São Paulo, Programar, criar teorias, assistir animes.</dd>
+            
+            
+            
+            <dt><h2>Referências</h2></dt>
+            <dd>Dona Maria, dona do Supermercado do BomBom</dd>
+            
+            
+        </dl>
+       
+    
+    </div>
+
+</body>
+
+</html>
